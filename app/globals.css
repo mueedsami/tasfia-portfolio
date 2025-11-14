@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-white text-black font-sans scroll-smooth;
+}
+
+.section-title {
+  @apply text-3xl font-semibold tracking-tight mb-3;
+}
+
+.section-subtitle {
+  @apply text-sm uppercase tracking-[0.2em] text-gray-500 mb-1;
+}
